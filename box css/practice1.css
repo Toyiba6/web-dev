@@ -1,0 +1,36 @@
+
+.face{
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    border-radius: 50%;
+    border: 2px solid black; 
+    box-shadow: 5px 5px 15px black;
+    
+    
+}
+.mouth{
+    width:200px;
+    height:75px;
+    background-color: brown;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    top:250px;
+    left:100px;
+    box-shadow: 2px 2px 10px brown;
+}
+.lefteye, .righteye{
+    background-color: black;
+    height:50px;
+    width:50px;
+    border-radius: 50% ;
+    display:inline-block;
+    position:absolute;
+    left:100px;
+    top:100px;
+    box-shadow: 2px 2px 10px black;
+}
+.righteye{
+    left:250px;
+}
+
